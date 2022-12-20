@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import VercelIcon from '../assets/vercel.svg'
 
 interface IProps {
   api?: string
@@ -9,6 +10,7 @@ const Home: NextPage = (props: IProps) => {
     <div>
       <p>everything is fine</p>
       <p>loaded api env: {props.api}</p>
+      <VercelIcon class="w-20" />
     </div>
   )
 }

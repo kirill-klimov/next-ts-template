@@ -1,8 +1,9 @@
 {
-  "name": "ratsratswearetherats",
+  "name": "next-ts-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "init": "echo \"API=api_url\" > .env",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,6 +11,7 @@
     "push": "git add . && git commit -m \"init\" && git push origin main"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.5.1",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
